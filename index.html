@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solarrechner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>☀️ Solarrechner</h1>
+    <p>Berechne deine Solaranlage basierend auf Leistung und Strompreis</p>
+    <form id="solarForm">
+      <label for="leistung">Leistung (W):</label>
+      <input type="number" id="leistung" required>
+      <label for="stunden">Sonnenstunden/Tag:</label>
+      <input type="number" id="stunden" step="0.1" required>
+      <label for="strompreis">Strompreis (€/kWh):</label>
+      <input type="number" id="strompreis" step="0.01" required>
+      <button type="submit">Berechnen</button>
+    </form>
+    <div id="ergebnis"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

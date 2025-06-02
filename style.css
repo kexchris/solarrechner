@@ -1,0 +1,30 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1509395176047-4a66953fd231') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 500px;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background: #ffcc00;
+  border: none;
+  font-weight: bold;
+}
